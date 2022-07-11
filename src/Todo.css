@@ -1,0 +1,19 @@
+.todo {
+    background:rgb(151, 143, 221);
+    text-align:left;
+    color:white;
+    margin-bottom:2rem;
+    width:30%;
+    margin-left:18rem;
+    padding:2rem 2rem;
+    display: flex;
+}
+
+.todo-name {
+    margin: 0rem !important;
+}
+
+.todo-box {
+    margin-right:3rem;
+}
+

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.todo-container {
+    justify-content: center;
+    text-align: center;
+    padding-top:5rem;
+    width:100vw;
+    height:200vh;
+    color:lightblue;
+    font-family: 'Raleway', sans-serif !important;
+
+}
+
+.form {
+    margin-bottom:4rem;
+    border:1px solid grey;
+    width:60%;
+    margin-left:20%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-radius:7px;
+}
+
+.todos-count {
+    margin-bottom:2rem;
+    font-size:2rem;
+}
+
+.form-input {
+    justify-content: center;
+    border:none;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+
+    width:80%;
+    font-size:1.5rem;
+    padding-left:0.3rem;
+    border-right: 1px solid rgb(171, 171, 171);
+}
+.form-input::placeholder {
+    font-size: 1.5rem;
+    color:rgb(171, 171, 171);
+}
+
+.form-input:focus {
+    outline:none;
+}
+.form-add-btn, .form-clear-btn {
+    background:none;
+    cursor:pointer;
+    border:none;
+    padding: 0.8rem 0rem;
+    width:50%;
+
+}
+.add-btn, .clear-btn {
+    font-size:2rem;
+}
+.form-add-btn {
+    background:white;
+    color:green;
+    border-right: 1px solid rgb(171, 171, 171);
+}
+.form-clear-btn {
+    color:red;
+    background:white;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+}
+.form-btns {
+    width:20%;
+}
